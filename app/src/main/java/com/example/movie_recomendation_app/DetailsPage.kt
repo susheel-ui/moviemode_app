@@ -128,7 +128,6 @@ private fun ShowDetails(detailsResponse: DetailsResponse) {
     var imgLoader by remember {
         mutableStateOf(true)
     }
-
     Column(
         modifier = Modifier
             .verticalScroll(rememberScrollState())
@@ -196,7 +195,7 @@ private fun ShowDetails(detailsResponse: DetailsResponse) {
 
 
             Text(
-                text = "Year : ${detailsResponse.release_date}",
+                text = "Release : ${detailsResponse.release_date}",
                 fontSize = 15.sp,
                 fontFamily = FontFamily(Font(R.font.poppin_regular)),
                 modifier = Modifier.padding(10.dp, 0.dp, 0.dp, 0.dp)
