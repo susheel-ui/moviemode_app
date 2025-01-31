@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Movie_Recomendation_App</string>
+    <string name="title_activity_details_page">DetailsPage</string>
+</resources>
